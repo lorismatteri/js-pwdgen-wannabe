@@ -8,7 +8,7 @@ var surname;
 
 var surname = prompt("Qual è il tuo cognome?");
 
-document.getElementById("title").innerHTML = name + " " + surname;
+document.getElementById("title").innerHTML = "Ciao " + name + " " + surname;
 
 // Colore
 var favcolor;
@@ -18,5 +18,8 @@ var favcolor = prompt("Qual'è il tuo colore preferito?");
 document.getElementById("color").innerHTML = favcolor;
 
 // Password poco sicura
-document.getElementById("parag").innerHTML = "La tua password idiota:"
-document.getElementById("password").innerHTML = name + surname + favcolor + 19
+document.getElementById("parag").innerHTML = "La tua password idiota:";
+
+document.getElementById("password").innerHTML = name + surname + favcolor + 19;
+
+document.getElementById("saluti").innerHTML = "Arrivederci";
